@@ -1,12 +1,12 @@
-import { AsyncFormTest } from "./components/AsyncFormTest";
 import "./App.css";
+import { Exercise } from "./Exercise";
 
 function App() {
   return (
     <>
       <h1>Test app</h1>
       <div className="card">
-        <AsyncFormTest />
+        <Exercise />
       </div>
     </>
   );
