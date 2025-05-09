@@ -5,6 +5,6 @@ it("has a main heading", () => {
   render(<App />);
 
   expect(
-    screen.getByRole("heading", { level: 1, name: "Vite + React" })
+    screen.getByRole("heading", { level: 1, name: "Test app" })
   ).toBeDefined();
 });

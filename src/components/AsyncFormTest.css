@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 300px;
+  gap: 16px;
+  text-align: left;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+}
